@@ -1,5 +1,5 @@
 """
-AUTHOR: Faith Moselle O. Paule
+AUTHOR: Faith Paule
 PROGRAM CODE: BCS13
 DATE: S.Y. 2022-2023
 
