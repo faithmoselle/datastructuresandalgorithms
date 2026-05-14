@@ -1,5 +1,5 @@
 """
-AUTHOR: Faith Moselle O. Paule
+AUTHOR: Faith Paule
 DATE:
 
 PROGRAM: Menu-Driven Data Structures Demonstrator
