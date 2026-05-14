@@ -1,5 +1,5 @@
 """
-AUTHOR: Faith Moselle O. Paule
+AUTHOR: Faith Paule
 DATE:
 
 PROGRAM: Binary Tree Postorder Traversal
