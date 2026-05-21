@@ -14,14 +14,6 @@ TOPIC: Natural Language Processing (NLP) - N-gram Analysis, Tokenization, Freque
 PROBLEM: N-gram Frequency Analysis
 IDENTIFICATION: Building an interactive N-gram frequency analyzer for a Finals Summative Exam that: tokenizes text (lowercase, punctuation removal), generates N-grams using a sliding window, counts frequencies with Counter, filters by minimum count threshold, and returns sorted results with user input integration.
 
-Programming Language: Python 3
-
-Tech Stack:
-- re (Regular Expressions) - Tokenization with r'\b\w+\b'
-- collections.Counter - Frequency counting
-- Python Standard Library only
-- No external dependencies (pure Python)
-
 In this problem, you will implement a Python function that performs the following:
   1. Tokenization: Tokenize a given input text, ignoring punctuation and handling case insensitivity.
   2. Sliding Window N-gram Generation: Generate N-grams using a sliding window technique. The N-gram size (unigram, bigram, trigram, etc.) will be provided as an input.
@@ -37,6 +29,14 @@ Requirements:
     - 'in Python'
   3. Frequency Count: For each generated N-gram, count how many times it appears in the text.
   4. Filter by Frequency: The function should accept an additional parameter min_count which specifies the minimum frequency for an N-gram to be included in the result.
+
+Programming Language: Python 3
+
+Tech Stack:
+- re (Regular Expressions) - Tokenization with r'\b\w+\b'
+- collections.Counter - Frequency counting
+- Python Standard Library only
+- No external dependencies (pure Python)
 """
 
 import re
