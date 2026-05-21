@@ -22,11 +22,21 @@ Tech Stack:
 - Python Standard Library only
 - No external dependencies (pure Python)
 
-REQUIREMENTS:
-1. Tokenization: Split text into tokens (words), ignore punctuation, convert to lowercase
-2. Sliding Window N-gram Generation: Generate contiguous sequences of N words
-3. Frequency Count: Count occurrences of each N-gram
-4. Filter by Frequency: Return only N-grams with frequency ≥ min_count
+In this problem, you will implement a Python function that performs the following:
+  1. Tokenization: Tokenize a given input text, ignoring punctuation and handling case insensitivity.
+  2. Sliding Window N-gram Generation: Generate N-grams using a sliding window technique. The N-gram size (unigram, bigram, trigram, etc.) will be provided as an input.
+  3. Frequency Count: For each N-gram generated, count its frequency in the text.
+  4. Filter N-grams by Frequency: The function should return only those N-grams whose frequency is above a certain threshold.
+
+Requirements:
+  1. Tokenization: You must split the input text into tokens (words), ignoring punctuation and converting all words to lowercase.
+  2. Sliding Window: The N-grams should be generated using a sliding window approach. For example, if the text is "I love programming in Python", a bigram (2-gram) would generate:
+    - 'I love'
+    - 'love programming'
+    - 'programming in'
+    - 'in Python'
+  3. Frequency Count: For each generated N-gram, count how many times it appears in the text.
+  4. Filter by Frequency: The function should accept an additional parameter min_count which specifies the minimum frequency for an N-gram to be included in the result.
 """
 
 import re
